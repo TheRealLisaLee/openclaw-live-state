@@ -56,6 +56,20 @@ Use for every non-trivial task:
   Done Condition: 3 cron jobs (2am, 4am, 6am) active, self-expanding tasks working, morning briefings readable
   Notes: Based on @legendaryy article. Crons check todo.md, update progress-log.md, write morning brief.
 
+- [ ] ID: AUTO-010
+  Title: LifeOS - The Lightbulb Workflow
+  Owner: Lisa
+  Risk: Low
+  Done Condition: Workflow documented, automated trigger path defined, and first execution run logged
+  Notes: Source: notion.so/LifeOS-The-Lightbulb-Workflow-314eed5e67c9816fab1dc1b01d83333e
+
+- [ ] ID: AUTO-011
+  Title: LifeOS - Million Dollar Digest
+  Owner: Lisa
+  Risk: Low
+  Done Condition: Digest generation workflow runs automatically and posts/report output is logged
+  Notes: Source: notion.so/LifeOS-Million-Dollar-Digest-314eed5e67c981719594d73303fe1cda
+
 ---
 
 ## Completed
