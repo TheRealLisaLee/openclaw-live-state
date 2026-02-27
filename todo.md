@@ -36,7 +36,7 @@ Use for every non-trivial task:
 ## Active
 
 - [ ] ID: AUTO-002
-  Title: Personal Tutor - Trading Education
+  Title: Personal Tutor - Trading Education [SYNCTEST]
   Owner: Lisa
   Risk: Low
   Done Condition: 30-day curriculum delivered mornings, tracked in Notion
