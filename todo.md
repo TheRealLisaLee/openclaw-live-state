@@ -43,7 +43,7 @@ Use for every non-trivial task:
   Notes: S&D, ORB, market structure lessons. Morning delivery via Discord.
 
 - [ ] ID: AUTO-003
-  Title: Research Pipeline - BGBB Content
+  Title: Research Pipeline - BGBB Content [LIVECHECK2]
   Owner: Lisa
   Risk: Medium
   Done Condition: Automated research → script drafts for Board Games Before Bed
