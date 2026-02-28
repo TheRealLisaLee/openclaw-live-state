@@ -1,0 +1,728 @@
+{
+  "tasks": {
+    "AUTO-002": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "ready",
+      "startedAt": "2026-02-28T16:44:03.210Z",
+      "lastHeartbeat": "2026-02-28T16:45:04.029Z",
+      "lastRunId": "run_AUTO-002_1772297043210",
+      "lastSessionKey": "dashboard:AUTO-002:run_AUTO-002_1772297043210",
+      "lastCompletedAt": "2026-02-28T16:45:04.028Z",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "AUTO-003": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "blocked",
+      "blockedReason": "Run run_AUTO-003_1772251083987 failed",
+      "startedAt": "2026-02-28T03:58:03.987Z",
+      "lastHeartbeat": "2026-02-28T04:03:04.361Z",
+      "lastRunId": "run_AUTO-003_1772251083987",
+      "lastSessionKey": "dashboard:AUTO-003:run_AUTO-003_1772251083987",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "AUTO-005": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "running",
+      "liveRunId": "run_AUTO-005_1772297043783",
+      "liveSessionKey": "dashboard:AUTO-005:run_AUTO-005_1772297043783",
+      "startedAt": "2026-02-28T16:44:03.783Z",
+      "lastHeartbeat": "2026-02-28T16:44:05.256Z",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "OS-002": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "blocked",
+      "blockedReason": "Run run_OS-002_1772247724659 failed",
+      "startedAt": "2026-02-28T03:02:04.659Z",
+      "lastHeartbeat": "2026-02-28T04:03:04.922Z",
+      "lastRunId": "run_OS-002_1772247724659",
+      "lastSessionKey": "dashboard:OS-002:run_OS-002_1772247724659",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "OS-003": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "blocked",
+      "blockedReason": "Run run_OS-003_1772251084516 failed",
+      "startedAt": "2026-02-28T03:58:04.516Z",
+      "lastHeartbeat": "2026-02-28T04:03:05.490Z",
+      "lastRunId": "run_OS-003_1772251084516",
+      "lastSessionKey": "dashboard:OS-003:run_OS-003_1772251084516",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "OS-005": {
+      "executionMode": "approval_required",
+      "agentRoute": "orchestrator",
+      "orchestrationState": "ready",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "MC-L2-002": {
+      "executionMode": "approval_required",
+      "agentRoute": "orchestrator",
+      "orchestrationState": "ready",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "AUTO-007": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "blocked",
+      "blockedReason": "Run run_AUTO-007_1772255762829 failed",
+      "startedAt": "2026-02-28T05:16:02.830Z",
+      "lastHeartbeat": "2026-02-28T05:16:04.609Z",
+      "lastRunId": "run_AUTO-007_1772255762829",
+      "lastSessionKey": "dashboard:AUTO-007:run_AUTO-007_1772255762829",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "AUTO-008": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "blocked",
+      "blockedReason": "Run run_AUTO-008_1772255763361 failed",
+      "startedAt": "2026-02-28T05:16:03.361Z",
+      "lastHeartbeat": "2026-02-28T05:16:05.153Z",
+      "lastRunId": "run_AUTO-008_1772255763361",
+      "lastSessionKey": "dashboard:AUTO-008:run_AUTO-008_1772255763361",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    },
+    "AUTO-009": {
+      "executionMode": "approval_required",
+      "agentRoute": "main",
+      "orchestrationState": "blocked",
+      "blockedReason": "Run run_AUTO-009_1772255763897 failed",
+      "startedAt": "2026-02-28T05:16:03.897Z",
+      "lastHeartbeat": "2026-02-28T05:16:05.671Z",
+      "lastRunId": "run_AUTO-009_1772255763897",
+      "lastSessionKey": "dashboard:AUTO-009:run_AUTO-009_1772255763897",
+      "updatedAt": "2026-02-28T16:45:04.185Z"
+    }
+  },
+  "executionLog": [
+    {
+      "at": "2026-02-28T16:45:04.561Z",
+      "taskId": "AUTO-002",
+      "action": "bridge-complete",
+      "route": "main",
+      "note": "Run run_AUTO-002_1772297043210 completed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T16:44:04.316Z",
+      "taskId": "AUTO-005",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-005_1772297043783 (pid 871); discordMessageId=n/a; Route 'orchestrator' is temporarily mapped to 'main' until dedicated agents are available."
+    },
+    {
+      "at": "2026-02-28T16:44:03.641Z",
+      "taskId": "AUTO-002",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-002_1772297043210 (pid 836); discordMessageId=n/a; Route 'orchestrator' is temporarily mapped to 'main' until dedicated agents are available."
+    },
+    {
+      "at": "2026-02-28T05:16:06.695Z",
+      "taskId": "AUTO-009",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-009_1772255763897 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T05:16:06.168Z",
+      "taskId": "AUTO-008",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-008_1772255763361 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T05:16:05.620Z",
+      "taskId": "AUTO-007",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-007_1772255762829 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T05:16:04.882Z",
+      "taskId": "AUTO-009",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-009_1772255763897 (pid 88673); discordMessageId=n/a; Route 'orchestrator' is temporarily mapped to 'main' until dedicated agents are available."
+    },
+    {
+      "at": "2026-02-28T05:16:04.338Z",
+      "taskId": "AUTO-008",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-008_1772255763361 (pid 88651); discordMessageId=n/a; Route 'orchestrator' is temporarily mapped to 'main' until dedicated agents are available."
+    },
+    {
+      "at": "2026-02-28T05:16:03.783Z",
+      "taskId": "AUTO-007",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-007_1772255762829 (pid 88625); discordMessageId=n/a; Route 'orchestrator' is temporarily mapped to 'main' until dedicated agents are available."
+    },
+    {
+      "at": "2026-02-28T05:14:38.282Z",
+      "taskId": "AUTO-009",
+      "action": "execute",
+      "route": "orchestrator",
+      "note": "Task execution started (simulated spawn)"
+    },
+    {
+      "at": "2026-02-28T05:14:36.861Z",
+      "taskId": "AUTO-008",
+      "action": "execute",
+      "route": "orchestrator",
+      "note": "Task execution started (simulated spawn)"
+    },
+    {
+      "at": "2026-02-28T05:14:34.681Z",
+      "taskId": "AUTO-007",
+      "action": "execute",
+      "route": "orchestrator",
+      "note": "Task execution started (simulated spawn)"
+    },
+    {
+      "at": "2026-02-28T04:03:05.500Z",
+      "taskId": "OS-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-003_1772251084516 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T04:03:04.942Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T04:03:04.393Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772251083987 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T04:00:05.594Z",
+      "taskId": "OS-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-003_1772251084516 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T04:00:05.037Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T04:00:04.458Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772251083987 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T04:00:00.841Z",
+      "taskId": "OS-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-003_1772251084516 failed; discordMessageId=1477153339610239062"
+    },
+    {
+      "at": "2026-02-28T03:59:56.661Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=1477153323177083070"
+    },
+    {
+      "at": "2026-02-28T03:59:52.823Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772251083987 failed; discordMessageId=1477153307045789768"
+    },
+    {
+      "at": "2026-02-28T03:58:06.470Z",
+      "taskId": "OS-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-003_1772251084516 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:58:05.915Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:58:05.377Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772251083987 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:58:04.688Z",
+      "taskId": "OS-003",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_OS-003_1772251084516 (pid 83836); discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:58:04.134Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-003_1772251083987 (pid 83814); discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:56:06.477Z",
+      "taskId": "OS-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-003_1772250964132 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:56:05.918Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:56:05.391Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772250963602 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:56:04.685Z",
+      "taskId": "OS-003",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_OS-003_1772250964132 (pid 83588); discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:56:04.133Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-003_1772250963602 (pid 83562); discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:55:05.445Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:55:04.877Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:52:04.867Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:52:04.301Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:50:05.082Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:50:04.546Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:45:04.976Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:45:04.442Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:44:04.579Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:44:04.028Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:42:05.081Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:42:04.535Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:41:04.758Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:41:04.194Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:40:05.324Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:40:04.781Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:39:04.847Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:39:04.303Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:31:05.274Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:31:04.705Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:29:05.221Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:29:04.694Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:28:04.771Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:28:04.221Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:27:05.123Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:27:04.576Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:25:05.114Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:25:04.557Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:23:05.106Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:23:04.419Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:22:04.414Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:22:03.865Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:20:05.444Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:20:04.822Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:18:04.394Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:18:03.858Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:11:04.824Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:11:04.296Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:06:05.015Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:06:04.479Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:05:05.614Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:05:05.032Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:03:04.302Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:03:03.754Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:02:06.012Z",
+      "taskId": "OS-002",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_OS-002_1772247724659 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:02:05.491Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-failed",
+      "route": "main",
+      "note": "Run run_AUTO-003_1772247724138 failed; discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:02:04.785Z",
+      "taskId": "OS-002",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_OS-002_1772247724659 (pid 79040); discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:02:04.246Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-003_1772247724138 (pid 79011); discordMessageId=n/a"
+    },
+    {
+      "at": "2026-02-28T03:00:44.252Z",
+      "taskId": "OS-002",
+      "action": "execute",
+      "route": "main",
+      "note": "Task execution started (simulated spawn)"
+    },
+    {
+      "at": "2026-02-28T03:00:42.620Z",
+      "taskId": "AUTO-003",
+      "action": "execute",
+      "route": "main",
+      "note": "Task execution started (simulated spawn)"
+    },
+    {
+      "at": "2026-02-27T19:18:10.220700Z",
+      "taskId": "AUTO-005",
+      "action": "manual-execute",
+      "route": "main",
+      "note": "Sync execute: re-validated overnight 2am/4am + morning-brief cron jobs enabled with ok status."
+    },
+    {
+      "at": "2026-02-27T19:17:47.872046Z",
+      "taskId": "AUTO-002",
+      "action": "manual-execute",
+      "route": "main",
+      "note": "Sync execute: verified 30 lesson files and existing Discord delivery packet for 2026-02-27."
+    },
+    {
+      "at": "2026-02-27T19:13:23.286352Z",
+      "taskId": "AUTO-005",
+      "action": "manual-execute",
+      "route": "main",
+      "note": "Validated overnight cron triad active/healthy and wrote overnight protocol status artifact."
+    },
+    {
+      "at": "2026-02-27T19:12:53.910142Z",
+      "taskId": "AUTO-002",
+      "action": "manual-execute",
+      "route": "main",
+      "note": "Verified 30-day curriculum completeness and created 2026-02-27 Discord lesson delivery packet."
+    },
+    {
+      "at": "2026-02-27T19:06:44.819688Z",
+      "taskId": "OS-003",
+      "action": "manual-execute",
+      "route": "main",
+      "note": "Implemented SELF.md + Recovery-Protocol.md + identity journal + backup manifest (Digital Citadel baseline)."
+    },
+    {
+      "at": "2026-02-27T19:06:00.059970Z",
+      "taskId": "OS-002",
+      "action": "manual-execute",
+      "route": "main",
+      "note": "Implemented research scratchpad + dexter-style structured prompt in trading-research (research-only)."
+    },
+    {
+      "at": "2026-02-27T17:42:16.323958Z",
+      "taskId": "AUTO-003",
+      "action": "manual-execute",
+      "route": "main",
+      "note": "Executed dashboard action manually; created BGBB research pipeline scaffold + first output brief."
+    },
+    {
+      "at": "2026-02-27T17:38:34.632Z",
+      "taskId": "AUTO-003",
+      "action": "bridge-spawn",
+      "route": "main",
+      "note": "Spawned local run run_AUTO-003_1772213911019 (pid 45901); discord=sent"
+    }
+  ]
+}

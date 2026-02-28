@@ -68,7 +68,7 @@ Use for every non-trivial task:
   Owner: Lisa
   Risk: Low
   Done Condition: Digest generation workflow runs automatically and posts/report output is logged
-  Notes: Source: notion.so/LifeOS-Million-Dollar-Digest-314eed5e67c981719594d73303fe1cda
+  Notes: Source: notion.so/LifeOS-Million-Dollar-Digest-314eed5e67c981719594d73303fe1cda. 2026-02-28 progress: workflow spec + runner added (`tasks/auto-011-million-dollar-digest/digest-workflow-spec.md`, `scripts/million-dollar-digest.sh`), first digest generated at `tasks/auto-011-million-dollar-digest/outputs/2026-02-28-million-dollar-digest.md` and logged in run-log.
 
 ---
 
