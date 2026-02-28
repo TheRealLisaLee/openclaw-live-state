@@ -56,13 +56,6 @@ Use for every non-trivial task:
   Done Condition: 3 cron jobs (2am, 4am, 6am) active, self-expanding tasks working, morning briefings readable
   Notes: Based on @legendaryy article. Crons check todo.md, update progress-log.md, write morning brief.
 
-- [ ] ID: AUTO-010
-  Title: LifeOS - The Lightbulb Workflow
-  Owner: Lisa
-  Risk: Low
-  Done Condition: Workflow documented, automated trigger path defined, and first execution run logged
-  Notes: Source: notion.so/LifeOS-The-Lightbulb-Workflow-314eed5e67c9816fab1dc1b01d83333e
-
 - [ ] ID: AUTO-011
   Title: LifeOS - Million Dollar Digest
   Owner: Lisa
@@ -73,6 +66,14 @@ Use for every non-trivial task:
 ---
 
 ## Completed
+
+- [x] ID: AUTO-010
+  Title: LifeOS - The Lightbulb Workflow
+  Owner: Lisa
+  Status: Complete
+  Risk: Low
+  Done Condition: Workflow documented, automated trigger path defined, and first execution run logged ✅
+  Notes: Spec `tasks/auto-010-lightbulb/lightbulb-workflow-spec.md`; automation path `tasks/auto-010-lightbulb/lightbulb-automation-plan.md`; verified run on 2026-02-28 09:45 MST via `bash scripts/lightbulb-daily.sh` with observed updates in `tasks/auto-010-lightbulb/daily-summary.md` and `tasks/auto-010-lightbulb/inbox.md`.
 
 - [x] ID: AUTO-001
   Title: "The Huddle" - Weekly Coach Automation
