@@ -9,7 +9,7 @@
       "lastHeartbeat": "2026-02-28T16:46:04.141Z",
       "lastRunId": "run_AUTO-002_1772296982664",
       "lastSessionKey": "dashboard:AUTO-002:run_AUTO-002_1772296982664",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "AUTO-003": {
       "executionMode": "approval_required",
@@ -20,17 +20,18 @@
       "lastHeartbeat": "2026-02-28T04:03:04.361Z",
       "lastRunId": "run_AUTO-003_1772251083987",
       "lastSessionKey": "dashboard:AUTO-003:run_AUTO-003_1772251083987",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "AUTO-005": {
       "executionMode": "approval_required",
       "agentRoute": "main",
-      "orchestrationState": "running",
-      "liveRunId": "run_AUTO-005_1772296983394",
-      "liveSessionKey": "dashboard:AUTO-005:run_AUTO-005_1772296983394",
+      "orchestrationState": "ready",
       "startedAt": "2026-02-28T16:43:03.394Z",
-      "lastHeartbeat": "2026-02-28T16:43:05.053Z",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "lastHeartbeat": "2026-02-28T16:46:04.875Z",
+      "lastRunId": "run_AUTO-005_1772296983394",
+      "lastSessionKey": "dashboard:AUTO-005:run_AUTO-005_1772296983394",
+      "lastCompletedAt": "2026-02-28T16:46:04.875Z",
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "OS-002": {
       "executionMode": "approval_required",
@@ -41,7 +42,7 @@
       "lastHeartbeat": "2026-02-28T04:03:04.922Z",
       "lastRunId": "run_OS-002_1772247724659",
       "lastSessionKey": "dashboard:OS-002:run_OS-002_1772247724659",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "OS-003": {
       "executionMode": "approval_required",
@@ -52,19 +53,19 @@
       "lastHeartbeat": "2026-02-28T04:03:05.490Z",
       "lastRunId": "run_OS-003_1772251084516",
       "lastSessionKey": "dashboard:OS-003:run_OS-003_1772251084516",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "OS-005": {
       "executionMode": "approval_required",
       "agentRoute": "orchestrator",
       "orchestrationState": "ready",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "MC-L2-002": {
       "executionMode": "approval_required",
       "agentRoute": "orchestrator",
       "orchestrationState": "ready",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "AUTO-007": {
       "executionMode": "approval_required",
@@ -75,7 +76,7 @@
       "lastHeartbeat": "2026-02-28T05:16:04.609Z",
       "lastRunId": "run_AUTO-007_1772255762829",
       "lastSessionKey": "dashboard:AUTO-007:run_AUTO-007_1772255762829",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "AUTO-008": {
       "executionMode": "approval_required",
@@ -86,7 +87,7 @@
       "lastHeartbeat": "2026-02-28T05:16:05.153Z",
       "lastRunId": "run_AUTO-008_1772255763361",
       "lastSessionKey": "dashboard:AUTO-008:run_AUTO-008_1772255763361",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     },
     "AUTO-009": {
       "executionMode": "approval_required",
@@ -97,10 +98,17 @@
       "lastHeartbeat": "2026-02-28T05:16:05.671Z",
       "lastRunId": "run_AUTO-009_1772255763897",
       "lastSessionKey": "dashboard:AUTO-009:run_AUTO-009_1772255763897",
-      "updatedAt": "2026-02-28T16:46:04.273Z"
+      "updatedAt": "2026-02-28T16:46:05.012Z"
     }
   },
   "executionLog": [
+    {
+      "at": "2026-02-28T16:46:05.101Z",
+      "taskId": "AUTO-005",
+      "action": "bridge-complete",
+      "route": "main",
+      "note": "Run run_AUTO-005_1772296983394 completed; discordMessageId=n/a"
+    },
     {
       "at": "2026-02-28T16:46:04.300Z",
       "taskId": "AUTO-002",
